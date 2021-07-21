@@ -24,7 +24,7 @@ def bisearch_left(arr,target):
     return left
 
 arr = [5,7,7,10]
-target = 6
+target = 4
 left = bisearch_left(arr,target)
 right = bisearch_right(arr,target)
 print(left)
